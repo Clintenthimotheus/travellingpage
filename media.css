@@ -1,0 +1,45 @@
+@media (max-width:1280px) {
+    .nav-bar{
+        width: 400%;
+    }
+    .center-body{
+        width: 400%;
+    }
+    .offer-box{
+        margin-left: 4px;
+    }
+    .explore{
+        margin-left: -103px;
+    }
+    .card{
+        width: 396px; height: 536px;
+    }
+    .box-1{
+        height: 1417px;
+        width: 1425px;
+    }
+    .card{
+      width: 400px;
+    }
+    .col-sm-2{
+        margin-left: 3px;
+    }
+   .pic-ctn{
+    margin-left: 636px;
+   }
+    .background-pic{
+        width: 1363px;
+    }
+    .details{
+        width: 1361px;
+    }
+    .europe{
+        width: 325%;
+    margin-left: 150px;
+    }
+    footer{
+        width: 400%;
+    }
+
+
+}

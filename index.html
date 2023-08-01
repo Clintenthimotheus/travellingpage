@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Travelling</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+
+
+
+
+    <link rel="icon" href="image/adv-removebg-preview.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Bruno+Ace+SC&family=Castoro+Titling&family=Caveat:wght@700&family=Fjalla+One&family=Foldit:wght@200&family=Instrument+Serif&family=Pacifico&family=Permanent+Marker&family=Rajdhani&display=swap"
+        rel="stylesheet">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Bruno+Ace+SC&family=Castoro+Titling&family=Caveat:wght@700&family=Dancing+Script:wght@600&family=Fjalla+One&family=Foldit:wght@200&family=Instrument+Serif&family=Pacifico&family=Permanent+Marker&family=Rajdhani&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- nav bar -->
+
+    <div class="nav-bar">
+
+        <div class="nav-bar-1">
+            <div><a href=""><img class="logo" src="image/adv-removebg-preview.png" alt=""></a></div>
+            <a href="">
+                <div class="icon-1"><i class="fa-solid fa-comments-dollar fa-beat"></i><span class="span-1"><b>Super
+                            Offers</b><br></span><span class="span-2">Explore great deals & offers</span></div>
+            </a>
+            <a href="">
+                <div class="icon-2"><i class="fa-solid fa-suitcase"></i> <span class="span-1"><b> Introducing ADV
+                        </b></span> <br><span class="span-2">Travel solution</span></div>
+            </a>
+            <a href="">
+                <div class="icon-3"><i class="fa-solid fa-cart-flatbed-suitcase"></i> <span class="span-1"><b> My Trips
+                        </b></span> <br><span class="span-2">Manage your Booking</span></div>
+            </a>
+            <div class="icon-4">
+                <i class="fa-solid fa-truck-plane"></i>
+
+
+                <select class="login-button" value="">
+                    <option value=""> Login or Create Account</option>
+
+                </select>
+                <img class="flag"
+                    src="https://img.freepik.com/free-vector/indian-flag-theme-independence-day-decorative-background-vector_1055-10866.jpg"
+                    alt="">
+                <select class="nation" name="" id="">
+
+                    <option value="">
+                        <div>|IN|ENG|INR</div>
+                    </option>
+                </select>
+            </div>
+        </div>
+
+        <div class="option-bar">
+
+
+            <ul class="option-body">
+                <li><a href=""><span><i id="flights" class="fa-solid fa-plane-circle-check"></i></span>
+                        <br>
+                        <span>FLIGHTS</span></a></li>
+                <li><a href=""><span><i id="hotels" class="fa-solid fa-hotel"></i></span>
+                        <br>
+                        <span>HOTELS</span></a></li>
+                <li><a href=""><span><i id="homestays" class="fa-solid fa-house-chimney"></i></span>
+                        <br>
+                        <span>HOMESTAYS</span></a></li>
+                <li><a href=""><span><i id="holiday" class="fa-solid fa-champagne-glasses"></i></span>
+                        <br>
+                        <span>PACKAGES</span></a></li>
+                <li><a href=""><span><i id="trains" class="fa-solid fa-train-subway"></i></span>
+                        <br>
+                        <span>TRAINS</span></a></li>
+                <li><a href=""><span><i id="buses" class="fa-solid fa-bus"></i></span>
+                        <br>
+                        <span>BUSES</span></a></li>
+
+                <li><a href=""><span><i id="cabs" class="fa-solid fa-taxi"></i></span>
+                        <br>
+                        <span>CABS</span></a></li>
+                <li><a href=""><span><i id="forex" class="fa-solid fa-money-check-dollar"></i></span>
+                        <br>
+                        <span>FOREX</span></a></li>
+                <li><a href=""><span><i id="activites" class="fa-solid fa-person-hiking"></i></span>
+                        <br>
+                        <span>Activites</span></a></li>
+
+
+            </ul>
+
+
+
+            <table class="table-1">
+                <td><input class="date" type="date" placeholder="Dates "></td>
+                <td><input class="search" placeholder="Search places"></td>
+                <td>
+                    <select class="places" name="" id="">
+                        <option value="">Where are you going?</option>
+                        <option value="">INDIA</option>
+                        <option value="">GERMANY</option>
+                        <option value="">U S A</option>
+                        <option value="">QATAR</option>
+                        <option value="">SOUTH-AFRICA</option>
+                        <option value="">CANADA</option>
+
+                    </select>
+
+
+                </td>
+
+
+            </table>
+            <button>Search</button>
+
+            <div class="explore">
+                <<<< Explore more>>>>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <!-- center part -->
+    <div class="center-body">
+        <div class="offer-box">
+            <div class="box-1">
+                <span class="offers">Offers</span><span><a href="">All Offers</a></span><span><a href="">Bank Offers
+                    </a></span><span><a href="">Flights</a></span><span><a href="">Hotels</a></span><span><a
+                        href="">Holidays</a></span><span><a href="">Trains</a></span><span><a href="">Cabs</a></span>
+                <hr style="margin-left: 174px;
+                width: 721px;">
+
+                <div class="images" style="margin-top: 50px;">
+
+                    <div id="dis" class="row">
+                        <div class="col-sm-2 mb-3 mb-sm-0" style="   width: 413px;">
+                            <div class="card" style="width: 396px; height: 536px; margin-top: 15px;">
+                                <div class="card-body">
+                                    <img style="height: 191px;" src="https://couponswala.com/blog/wp-content/uploads/2022/11/amazon-pay-travel-offers.jpg"
+                                        alt="">
+
+                                    <h5 class="card-title" style="margin-top: 16px;">Book your Travel Tickets using
+                                        Amazon Pay</h5>
+                                    <p class="card-text">You can now use your Amazon account to book your bus & flight
+                                        tickets. Explore all flight offers, bus ticket deals, last minute travel offers
+                                        & getaways to book your travel tickets online and experience one-click purchase
+                                        using Amazon Pay balance </p>
+                                    <a href="#" class="btn btn-primary" style="    margin-top: 39px;">Book Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-2" style="   width: 413px;">
+                            <div class="card" style=" margin-top: 15px; width: 396px; height: 536px;">
+                                <div class="card-body">
+                                    <img style="height: 191px;"src="https://gumlet.assettype.com/dtnext%2F2023-05%2F22e830a6-b4a6-425e-8970-796396c00610%2FUntitled_design__14_.jpg?auto=format%2Ccompress&fit=max&format=webp&w=400&dpr=2.6"
+                                        alt="">
+
+                                    <h5 class="card-title" style="margin-top: 16px;">Easy Booking and Payment Options</h5>
+                                    <p class="card-text">Paytm ensures smooth payment experience for the users by making
+                                        wallet payment secure and quicker. On Paytm, you can book your bus tickets in
+                                        less than a minute without any hassle. Make sure that you have enough balance in
+                                        your Paytm wallet, as it helps you in faster checkout.</p>
+                                    <a href="#" class="btn btn-primary" style="    margin-top: 64px;">Book Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-2 mb-3 mb-sm-0" style="   width: 413px;">
+                            <div class="card" style="width: 396px; height: 536px; margin-top: 15px;">
+                                <div class="card-body">
+                                    <img style="height: 191px;" src="https://www.tripbeam.com/wp-content/uploads/2019/01/trip-offer.png" alt="">
+                                    <h5 class="card-title" style="margin-top: 16px;">Ultimate Summer Adventures</h5>
+                                    <p class="card-text">Experience the ultimate summer adventure with Wonderla's roller
+                                        coasters. Get ready for a summer of fun, thrills, and excitement with Wonderla!
+                                        View Offers. Browse Packages. Locations: Kochi, Bengaluru, Hyderabad.Summer Tour
+                                        Packages in India</p>
+                                    <a href="#" class="btn btn-primary" style="    margin-top: 61px;">View Details</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <div id="dis" class="row">
+                        <div class="col-sm-2 mb-3 mb-sm-0" style="   width: 413px;">
+                            <div class="card" style="width: 396px; height: 536px; margin-top: 15px;">
+                                <div class="card-body">
+                                    <img style="height: 191px;" src="https://gos3.ibcdn.com/img-1649264721.jpg"
+                                        alt="">
+
+                                    <h5 class="card-title" style="margin-top: 16px;">Really Cheap Holiday Deals</h5>
+                                    <p class="card-text">Best Prices Guaranteed with Deals on Discounts, Special Member
+                                        Prices, Instant Coupons! Read Reviews from Verified Guests to Get the Real Story
+                                        Before You Book Your Room.full vasool! Goibibo's Daily Steal Deals Are Better
+                                        than ever! Get the best deals on Hotels & Flights - every day!</p>
+                                    <a href="#" class="btn btn-primary" style="    margin-top: 61px;">Know More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-2" style="   width: 413px;">
+                            <div class="card" style=" margin-top: 15px; width: 396px; height: 536px;">
+                                <div class="card-body">
+                                    <img style="height: 191px;"src="https://gos3.ibcdn.com/meta-600X315-1679651234.jpg"
+                                        alt="">
+
+                                    <h5 class="card-title" style="margin-top: 16px;">Great Hotel Deals</h5>
+                                    <p class="card-text">Book Hotels with Deals. Search, Compare and Save with
+                                        Adventure™! Find here Hotel Offers. Compare and Enjoy Saving with us! All Prices
+                                        in One Site. Compare and Save Money! Save Time & Money. Types: Hotels, B&Bs,
+                                        Guesthouses, Resort.</p>
+                                    <a href="#" class="btn btn-primary" style="    margin-top: 87px;">View Details</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-2 mb-3 mb-sm-0" style="   width: 413px;">
+                            <div class="card" style="width: 396px; height: 536px; margin-top: 15px;">
+                                <div class="card-body">
+                                    <img style="height: 191px;" src="https://gos3.ibcdn.com/top-1606675017.jpg" alt="">
+                                    <h5 class="card-title" style="margin-top: 16px;">Plan Your Next Adventure</h5>
+                                    <p class="card-text">Get ready to fall in love with the USA's most popular travel
+                                        destinations. Get inspired with our list of the best places to travel to in USA.
+                                        Official USA Travel Site. US Road Trip. Travel Information. Visiting USA.
+                                        Services: Experiences, Trips, Culture & History, Food & Drink.</p>
+                                    <a href="#" class="btn btn-primary" style="    margin-top: 61px;">Book Now</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+
+                </div>
+
+
+
+            </div>
+        </div>
+
+        <!-- card  -->
+        <div class="pic-ctn">
+           
+           <img src="image/travel-2.avif" alt="" class="pic">
+            <img src="image/offer-3.avif" alt="" class="pic">
+            <img src="image/offer-1.avif" alt="" class="pic">
+            <img src="image/offer-6.avif" alt="" class="pic">
+             <img src="image/offer-5.avif" alt="" class="pic">
+            
+          
+          </div>
+
+
+
+<!-- cardend -->
+        <div class="background-pic">
+            <div class="text-main">
+                <div class="text-head">
+                    Travel is <br> AN INVESTMENT <br>in yourself
+                </div>
+                <hr style="width: 450px;
+                color: black;
+                height: 8px;
+                margin-left: 522px;">
+                <div class="cont-text">
+                    These adventurous travel bloggers, storytellers, and photographers are inspiring explorers in their
+                    own right—their travel stories entertain, their adventures inspire, and they live their passion for
+                    travel.
+
+                    Paul Nicklen is an award-winning polar photographer using remarkable imagery to share stories of our
+                    rapidly changing planet on all seven continents.
+                    Wandering Earl is an off-the-beaten path adventurer who has visited many places that other people
+                    either cannot, or don’t want to go. He sheds light on offbeat destinations adventurous travelers
+                    just might want to explore
+                    Oneika Raymond is an Emmy Award-winning journalist and perpetual explorer—she is a passionate
+                    traveler using her travel stories to inspire others to discover the most unforgettable places.
+                    While certainly not the first family travel bloggers to set out to explore the world, the Bucket
+                    List Family does an amazing job sharing the wonders of the world through videos and imagery that
+                    homebound travelers can enjoy with their kids.
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+
+
+    </div>
+    <div class="details">
+        <div class="property">Browse by property type</div>
+        <hr>
+        <div class="room-packages">
+            <div class="pack-details">
+                <a href="">
+                    <div><img
+                            src="https://assets-global.website-files.com/5c6d6c45eaa55f57c6367749/624b471bdf247131f10ea14f_61d31b8dbff9b500cbd7ed32_types_of_rooms_in_a_5-star_hotel_2_optimized_optimized.jpeg"
+                            alt=""></div>
+                    <div class="hotel-text">Hotels</div>
+                    <div class="sub-text">989,95 hotels</div>
+                </a>
+            </div>
+            <div class="pack-details">
+                <a href="">
+                    <div><img
+                            src="https://media.tfehotels.com/media/filer_public/af/3f/af3ff34b-32df-484b-a262-9bdc59c077b9/adina-apartment-hotel-hackescher-markt-premier-studio-apartment-bedroom-02-2017.jpg"
+                            alt=""></div>
+                    <div class="hotel-text">Apartments</div>
+                    <div class="sub-text">1,098,375 apartments</div>
+                </a>
+            </div>
+            <div class="pack-details">
+                <a href="">
+                    <div><img
+                            src="https://img.traveltriangle.com/blog/wp-content/uploads/2021/10/Luxury-resorts-in-the-world.jpg"
+                            alt=""></div>
+                    <div class="hotel-text">Resorts</div>
+                    <div class="sub-text">1098,37 resorts</div>
+                </a>
+            </div>
+            <div class="pack-details">
+                <a href="">
+                    <div><img src="https://i.ytimg.com/vi/z881jehUveQ/maxresdefault.jpg" alt=""></div>
+                    <div class="hotel-text">Villas</div>
+                    <div class="sub-text">22,3445 villas</div>
+                </a>
+            </div>
+            <div class="pack-details">
+                <a href="">
+                    <div><img
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcsppmtkbxXQDGJTHbzisfKIU0MePCZ-WFwA&usqp=CAU"
+                            alt=""></div>
+                    <div class="hotel-text">Cabins</div>
+                    <div class="sub-text">23,445 Cabins</div>
+                </a>
+            </div>
+            <div class="pack-details">
+                <a href="">
+                    <div><img
+                            src="https://3.bp.blogspot.com/-kvX7c0SM20E/V2XLfDC_LjI/AAAAAAAAGY0/N4QvRHBIKxsyhyRF8RmTTt05YGYiVdcrQCK4B/s1600/DSC05371.JPG"
+                            alt=""></div>
+                    <div class="hotel-text">Cottages</div>
+                    <div class="sub-text">12,3445 COttages</div>
+                </a>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="exlpore-india">
+            <div class="property">Explore India</div>
+            <div class="property-cont">These popular destinations have a lot to offer</div>
+        </div>
+        <hr>
+        <div class="room-packages-1">
+            <div class="pack-details">
+                <a href="">
+                    <div><img
+                            src="https://static.tnn.in/photo/msid-93015270,width-100,height-200,resizemode-75/93015270.jpg"
+                            alt=""></div>
+                    <div class="hotel-text">GOA</div>
+                    <div class="sub-text">6,258 properties</div>
+                </a>
+            </div>
+            <div class="pack-details">
+                <a href="">
+                    <div><img src="https://www.oyorooms.com/travel-guide/wp-content/uploads/2019/09/Munnar.webp" alt="">
+                    </div>
+                    <div class="hotel-text">OOTY</div>
+                    <div class="sub-text">470 properties</div>
+                </a>
+            </div>
+            <div class="pack-details">
+                <a href="">
+                    <div><img
+                            src="https://cdn.britannica.com/26/84526-050-45452C37/Gateway-monument-India-entrance-Mumbai-Harbour-coast.jpg"
+                            alt=""></div>
+                    <div class="hotel-text">MUMBAI</div>
+                    <div class="sub-text">1,650 properties</div>
+                </a>
+            </div>
+            <div class="pack-details">
+                <a href="">
+                    <div><img
+                            src="https://www.travelandleisure.com/thmb/iAIrOVW7yWrDG8pZBpKMOvEGuNQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/new-delhi-india-NEWDELHITG0721-60d592e1603349298a0206d67d08582b.jpg"
+                            alt=""></div>
+                    <div class="hotel-text">NEW DELHI</div>
+                    <div class="sub-text">2,915 properties</div>
+                </a>
+            </div>
+            <div class="pack-details">
+                <a href="">
+                    <div><img
+                            src="https://t3.ftcdn.net/jpg/04/36/67/54/360_F_436675446_jGWzkVDah3b6ONZxhhN13s6I4iFnjLGJ.jpg"
+                            alt=""></div>
+                    <div class="hotel-text">Bangalore</div>
+                    <div class="sub-text">2,042 properties</div>
+                </a>
+            </div>
+            <div class="pack-details">
+                <a href="">
+                    <div><img src="https://imgmedia.lbb.in/media/2021/01/5ff8340dc1f2d04cd480de45_1610101773142.jpg"
+                            alt=""></div>
+                    <div class="hotel-text">Lonavala</div>
+                    <div class="sub-text">805 properties</div>
+                </a>
+            </div>
+        </div>
+        <hr>
+
+        <div class="exlpore-india">
+            <div class="property">Stay at our top unique properties</div>
+            <div class="property-cont">From castles and villas to boats and igloos, we've got it all</div>
+        </div>
+        <hr>
+        <div class="room-packages-1">
+            <div class="pack-details">
+                <a href="">
+                    <div><img
+                            src="https://static1.mansionglobal.com/production/media/article-images/73f2e153712e1adf6abccdee612a7a8e/large_B3-CM195_ROOF11_16RH_20181127140426.jpg"
+                            alt=""></div>
+                    <div class="hotel-text">La Roulotte de Ciney</div>
+                    <div class="sub-text">Belgium, Ciney</div>
+                    <div class="blue-box"> <span class="small-box">8.4</span><span>very good . 92 reviews</span></div>
+                    <div><button class="btn1">Book Now</button></div>
+                </a>
+            </div>
+            <div class="pack-details">
+                <a href="">
+                    <div><img
+                            src="https://i.pinimg.com/736x/13/25/6f/13256f81363433bdc50dbcb595f4646e--snow-days-small-towns.jpg"
+                            alt=""></div>
+                    <div class="hotel-text">Wierszyki Shelters</div>
+                    <div class="sub-text">Poland,Zakopane</div>
+                    <div class="blue-box"> <span class="small-box">9.7</span><span>Exceptional . 89 reviews</span></div>
+                    <div><button class="btn1">Book Now</button></div>
+                </a>
+            </div>
+            <div class="pack-details">
+                <a href="">
+                    <div><img
+                            src="https://loveincorporated.blob.core.windows.net/contentimages/gallery/06bb84bb-5e41-4aa8-9fa7-8c7151edc3d7-south-loop-home-studio-collective-office-renovation-chicago-illinois-usa_dezeen_2364_sq2.jpg"
+                            alt=""></div>
+                    <div class="hotel-text">Ranczo w Dolinie</div>
+                    <div class="sub-text">poland,Kiszkowo</div>
+                    <div class="blue-box"> <span class="small-box">9.4</span><span>Exceptional. 231 reviews</span></div>
+                    <div><button class="btn1">Book Now</button></div>
+                </a>
+            </div>
+            <div class="pack-details">
+                <a href="">
+                    <div><img
+                            src="https://static01.nyt.com/images/2021/03/21/realestate/17WYG-slide-LQHT/17WYG-slide-LQHT-articleLarge.jpg?quality=75&auto=webp&disable=upscale"
+                            alt=""></div>
+                    <div class="hotel-text">Tiny House Dreischwesterz</div>
+                    <div class="sub-text">Germany,Tier</div>
+                    <div class="blue-box"><span class="small-box">9.6</span><span>Exceptional . 143 reviews</span></div>
+                    <div><button class="btn1">Book Now</button></div>
+                </a>
+            </div>
+            <div class="pack-details">
+                <a href="">
+                    <div><img
+                            src="https://us1-prod-images.disco-api.com/2020/07/10/a8f28ab1-9c29-3068-b31d-4f7c342fcd0f.png?bf=0&f=jpg&p=true&q=70&w=1920"
+                            alt=""></div>
+                    <div class="hotel-text">Agriturisumo Cabrele</div>
+                    <div class="sub-text">Italy,Santorso</div>
+                    <div class="blue-box"> <span class="small-box">9.3</span><span>Superb . 92 reviews</span></div>
+                    <div><button class="btn1">Book Now</button></div>
+                </a>
+            </div>
+            <div class="pack-details">
+                <a href="">
+                    <div><img
+                            src="https://thenational-the-national-prod.cdn.arcpublishing.com/resizer/xP_HKwiXZKI-FMO--RJHPJGqaIo=/800x0/filters:format(jpg):quality(70)/cloudfront-eu-central-1.images.arcpublishing.com/thenational/VPH36BC4P4LHGAMUE2MG4LIZR4.jpg"
+                            alt=""></div>
+                    <div class="hotel-text">Carinya park</div>
+                    <div class="sub-text">Dubai</div>
+                    <div class="blue-box"> <span class="small-box">9.4</span><span> Superb . 92 reviews</span></div>
+                    <div><button class="btn1">Book Now</button></div>
+                </a>
+            </div>
+        </div>
+        <hr>
+
+    </div>
+    <div class="europe">
+        <div class="europe-group">Europe group trip</div>
+        <!-- <div class="container">
+            <div class="contain"></div>
+            <div class="contain"></div>
+            <div class="contain"></div>
+        </div> -->
+
+    </div>
+
+    <footer class="bg-light text-center text-white" style="    margin-top: 7rem;">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+          <!-- Section: Social media -->
+          <section class="mb-4">
+            <!-- Facebook -->
+            <a
+              class="btn text-white btn-floating m-1"
+              style="background-color: #3b5998;"
+              href="#!"
+              role="button"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+      
+            <!-- Twitter -->
+            <a
+              class="btn text-white btn-floating m-1"
+              style="background-color: #55acee;"
+              href="#!"
+              role="button"
+              ><i class="fab fa-twitter"></i
+            ></a>
+      
+            <!-- Google -->
+            <a
+              class="btn text-white btn-floating m-1"
+              style="background-color: #dd4b39;"
+              href="#!"
+              role="button"
+              ><i class="fab fa-google"></i
+            ></a>
+      
+            <!-- Instagram -->
+            <a
+              class="btn text-white btn-floating m-1"
+              style="background-color: #ac2bac;"
+              href="#!"
+              role="button"
+              ><i class="fab fa-instagram"></i
+            ></a>
+      
+            <!-- Linkedin -->
+            <a
+              class="btn text-white btn-floating m-1"
+              style="background-color: #0082ca;"
+              href="#!"
+              role="button"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+            <!-- Github -->
+            <a
+              class="btn text-white btn-floating m-1"
+              style="background-color: #0e9dea;"
+              href="#!"
+              role="button"
+              ><i class="fab fa-github"></i
+            ></a>
+          </section>
+          <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+      
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 105, 242, 0.947);">
+          © 1987 :
+          <a class="text-white" href="https://mdbootstrap.com/">Adventure.com</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
